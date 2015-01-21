@@ -1,0 +1,12 @@
+Package: einstein
+Type: Package
+Title: Syntactic Sugar for the Einstein Summation Convention
+Version: 0.3
+Date: 2014-10-26
+Author: Martin Elff
+Maintainer: Martin Elff <elff@gmx.com>
+Description: This package intends to ease programming with multidemsional arrays by allowing
+  an easy translation into R code of mathematical expressions using the Einstein 
+  summation convention for tensor operations 
+License: GPL
+Depends: partitions

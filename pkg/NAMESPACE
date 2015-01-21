@@ -1,0 +1,23 @@
+#export(
+#  "%[%",
+#  "%[%<-",
+#  index.partitions,
+#  sum.index.permutations,
+#  sum.index.partitions,
+#  array.diag,
+#  collapse.array,
+#  arr2mat,
+#  fill_tensor
+#  )
+exportPattern("^[^\\.]")
+
+#S3method("+",tensor)
+#S3method("*",tensor)
+S3method(Ops,tensor)
+S3method("[",tensor)
+S3method("[<-",tensor)
+S3method("[<-",tensor_skeleton)
+S3method(sum,tensor)
+S3method(print,tensor)
+S3method(as.array,tensor)
+
